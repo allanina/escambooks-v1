@@ -1,10 +1,11 @@
 import "./App.css";
+import Sidebar from "./frontend/components/Sidebar/Sidebar";
 
 function App() {
   return (
-    <>
-      <h1>Escambooks</h1>
-    </>
+    <div className="body">
+      <Sidebar />
+    </div>
   );
 }
 
