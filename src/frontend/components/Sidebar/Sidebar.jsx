@@ -1,24 +1,22 @@
 import { sidebarData } from "../../utils/sidebarData";
-import Navbar from "../Navbar/Navbar";
 import Home from "/static/messages-icon.svg";
 
 function Sidebar() {
   return (
-    <nav className="sidebar-container">
-      <Navbar />
+    <section className="sidebar-container">
       <ul className="sidebar-options">
-        {sidebarData.map((item) => {
-          <li className="sidebar-option-container" id={item.title}>
-            <img src={item.icon} alt="home icon" className="sidebar-icon" />
+        {sidebarData.map((item) => (
+          <li className="sidebar-option-container" key={item.title}>
+            <img src={item.icon} alt={item.title} className="sidebar-icon" />
             <span>{item.title}</span>
-          </li>;
-        })}
-        <div className="sidebar-logout-container">
+          </li>
+        ))}
+        <section className="sidebar-logout-container">
           <img src={Home} alt="home icon" className="sidebar-icon" />
           <span>Sair</span>
-        </div>
+        </section>
       </ul>
-    </nav>
+    </section>
   );
 }
 

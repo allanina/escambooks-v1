@@ -9,6 +9,7 @@
   background-color: #f5d6ac;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 /*componente logo*/
@@ -91,10 +92,69 @@
 /*navbar*/
 
 .navbar {
-  width: 100vw;
+  width: 100%;
   height: 110px;
   display: flex;
   align-items: center;
-  padding-left: 34px;
-  padding-top: 20px;
+  justify-content: space-between;
+  padding: 34px;
+}
+
+.logo-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 480px;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  padding-left: 1rem;
+  background-color: #d9ac84;
+  opacity: 29%;
+}
+
+.navbar-profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 187px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #a65f46;
+  margin-right: 15px;
+}
+
+.profile-user-name {
+  color: #a65f46;
+  font-weight: 500;
+  font-family: "Sora";
+}
+
+/*livro*/
+
+.book-container {
+  height: 255px;
+  width: 150px;
+  background-color: #a65f46;
+  border-radius: 10px;
+}
+
+/*home*/
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*app*/
+
+.app-container {
 }

@@ -1,10 +1,14 @@
 import "./App.css";
-import Sidebar from "./frontend/components/Sidebar/Sidebar";
+import Navbar from "./frontend/components/Navbar/Navbar";
+import Home from "./frontend/pages/Home/Home";
 
 function App() {
   return (
     <div className="body">
-      <Sidebar />
+      <Navbar />
+      <div className="app-container">
+        <Home />
+      </div>
     </div>
   );
 }
