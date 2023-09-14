@@ -1,5 +1,5 @@
 
-# 🏗️ Escambooks (em construção)
+# 📚 Escambooks (em construção 🏗️)
 
 Escambooks é um site de escambo de livros em que as usuárias poderão se cadastrar e catalogar livros que estão esquecidos em suas estantes e que elas não tem mais interesse em ter ou que querem compartilhar com o mundo. 
 
