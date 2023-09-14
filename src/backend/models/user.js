@@ -1,4 +1,4 @@
-import { Book } from "./book.service";
+import { Book } from "./book";
 
 class User {
     constructor(name, email, password, city, state, country) {
